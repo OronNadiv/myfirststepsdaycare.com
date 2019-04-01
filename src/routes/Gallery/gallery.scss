@@ -1,0 +1,16 @@
+@import "node_modules/react-image-gallery/styles/scss/image-gallery.scss";
+
+.gallery-page {
+  .image-gallery-image {
+    display: flex;
+    justify-content: center;
+    img {
+      max-height: 400px;
+      width: auto;
+    }
+    .image-gallery-description {
+      left: initial;
+      bottom: 10px;
+    }
+  }
+}

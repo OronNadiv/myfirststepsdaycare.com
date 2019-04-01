@@ -1,0 +1,234 @@
+#bg_top {
+  /*the design for the header*/
+  background: url(../../../public/images/header_bg.jpg) center top no-repeat;
+  min-height: 100%;
+  /*stick footer to bottom of the page*/
+  text-align: justify;
+  width: 100%;
+
+  #wrapper {
+    width: 980px;
+    margin: 0 auto 188px;
+
+    #header {
+      height: 222px;
+      width: 980px;
+      margin: 0 auto;
+
+      #logo {
+        width: 289px;
+        /*change this width and height to match your logo image*/
+        height: 54px;
+        margin: 60px 0 0 0;
+        /*the indent on the top and left side*/
+        float: left;
+      }
+
+      #cloud1 {
+        width: 80px;
+        height: 50px;
+        padding: 60px 0 0 161px;
+        float: left;
+        color: #90795f;
+        font-size: 11px;
+        text-align: center;
+        line-height: normal;
+      }
+
+      #cloud2 {
+        width: 130px;
+        height: 70px;
+        padding: 41px 0 0 0;
+        float: left;
+        color: #037b8d;
+        font-size: 18px;
+        text-align: center;
+      }
+
+      #menu {
+        /*the container that holds the main menu*/
+        height: 30px;
+        padding: 16px 0 6px 0;
+        clear: both;
+
+        ul#navigation {
+          margin: 0 0 0 0;
+          /*indent to line up with the logo*/
+          padding: 0;
+          float: left;
+          position: absolute;
+          /*makes dropdown sit on top of flash & map*/
+          z-index: 100;
+          /*makes dropdown sit on top of flash & map*/
+          li {
+            float: left;
+            list-style: none;
+            display: inline;
+            padding: 0;
+            margin: 0;
+          }
+          a {
+            float: left;
+            /*makes the text sit beside each other not down the page*/
+            color: #fff;
+            /*menu color normal*/
+            padding: 5px 13px;
+            /*space around and inbetween the buttons, top, right, bottom, left*/
+            text-decoration: none;
+            /*no underline*/
+            text-transform: lowercase;
+            /*all in capitals*/
+            font: 18px 'Architects Daughter', sans-serif;
+            /*menu text size and font*/
+            letter-spacing: 1px;
+            /*space out the letters, remove if you want it normal*/
+            border-right: 1px solid #068ca0;
+          }
+          li {
+            &.hover a, &:hover a {
+              color: #c3dc78;
+              cursor: pointer;
+              /*color of text on mouse over*/
+            }
+          }
+          a {
+            &.active, &:hover {
+              color: #c3dc78;
+              /*color of text on mouse over*/
+            }
+          }
+          li {
+            &.hover, &:hover {
+              position: relative;
+            }
+            &.hover ul.second-level, &:hover ul.second-level {
+              display: block;
+            }
+            &.hover ul.second-level ul.third-level, &:hover ul.second-level ul.third-level {
+              display: none;
+            }
+          }
+          ul.second-level {
+            position: absolute;
+            top: 30px;
+            /*how far away from the top menu*/
+            left: 0;
+            margin: 0;
+            padding: 5px;
+            width: 200px;
+            display: none;
+            background-color: #037b8d;
+            /*color of the dropdown*/
+            li {
+              width: 200px;
+              margin: 0;
+            }
+            a {
+              display: block;
+              float: none;
+              width: 180px;
+              border: none;
+              padding: 10px 10px;
+              background: none;
+              font-size: 10px;
+              /*font size */
+              line-height: 14px;
+              color: #fff;
+              border-bottom: 1px solid #068ca0;
+              text-transform: none;
+              /*turns off the uppercase*/
+            }
+            li {
+              &.hover a, &:hover a {
+                color: #c3dc78;
+                background-color: #068ca0;
+              }
+            }
+            a:hover {
+              color: #c3dc78;
+              background-color: #068ca0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#content_bg {
+  background-color: #FFF;
+  /*overflow:auto;*/
+  /*sticky footer*/
+  /*padding-bottom: 188px; /*sticky footer*/
+  padding-top: 5px;
+}
+
+#content {
+  padding: 30px 50px 30px 50px;
+}
+
+/*footer*/
+
+#grass {
+  position: relative;
+  margin-top: -188px;
+  /* negative value of footer height */
+  height: 188px;
+  clear: both;
+  background: url(../../../public/images/grass_tile.jpg) bottom repeat-x;
+  /*
+width:100%;
+background:url(../images/grass_tile.jpg) bottom  repeat-x;
+height:188px;*/
+}
+
+#footer_design {
+  background: url(../../../public/images/footer_design.jpg) no-repeat top left;
+  height: 188px;
+  width: 980px;
+  margin: 0 auto;
+}
+
+#footer {
+  width: 940px;
+  color: #606060;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  padding: 10px 20px 0 20px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  text-align: center;
+  a {
+    color: #606060;
+    text-decoration: none;
+    &:link, &:visited {
+      color: #606060;
+      text-decoration: none;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    margin: 0 4px 0 4px;
+    list-style: none;
+    float: left;
+    text-align: right;
+  }
+  img {
+    margin-top: -3px;
+  }
+  .right {
+    width: 180px;
+    float: right;
+    text-align: right;
+  }
+  .left {
+    width: 400px;
+    float: left;
+  }
+}

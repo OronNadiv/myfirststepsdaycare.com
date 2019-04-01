@@ -1,0 +1,14 @@
+.daycare-page {
+  ul.ticklist {
+    padding: 0 0 0 15px;
+    /*indent whole list*/
+    li {
+      list-style: none;
+      background: url(../../../public/images/icon_tick.gif) no-repeat left top;
+      margin: 0 0 10px 0;
+      padding: 0 0 0 25px;
+      line-height: normal;
+    }
+  }
+
+}

@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html {
+  /*stick footer to bottom of the page*/
+  height: 100%;
+}
+
+body {
+  /*stick footer to bottom of the page*/
+  height: 100%;
+  background: #efecdb url(../../public/images/bg_tile.jpg) repeat top;
+  margin: 0;
+  padding: 0;
+  color: #532f15;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  /* vertical spacing between your lines of text*/
+  text-align: center;
+}
+
+/*Template Layout*/
+
+a {
+  color: #037b8d;
+  outline: none;
+  /*gets rid of dotted select lines after clicking an image link*/
+  &:link, &:visited {
+    color: #037b8d;
+    outline: none;
+    /*gets rid of dotted select lines after clicking an image link*/
+  }
+  &:hover {
+    color: #960;
+    text-decoration: none;
+  }
+}
+
+.clear {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  border: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/*Opera Fix*/
+
+body:before {
+  content: "";
+  height: 100%;
+  float: left;
+  width: 0;
+  margin-top: -32767px;
+}
+
+/* General Content*/
+
+h1 {
+  color: #037b8d;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Architects Daughter', sans-serif;
+}
+
+h2 {
+  color: #502d14;
+  font-size: 20px;
+  font-family: 'Architects Daughter', sans-serif;
+}
+
+.special_font {
+}
+
+.image_padding {
+  margin: 0 0 15px 15px;
+}
+
+.size_14 {
+  font-size: 14px;
+}
+
+.size24 {
+  font-size: 24px;
+}
+
+.size18 {
+  font-size: 18px;
+}
+
+.left_column {
+  width: 620px;
+  float: left;
+}
+
+/*Full width page*/
+
+th {
+  /*top row of the table*/
+  background-color: #7a654a;
+  color: #FFFFFF;
+  font-weight: bold;
+  border-bottom: 1px solid #ffffff;
+  height: 28px;
+  text-align: center;
+}
