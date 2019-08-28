@@ -2,19 +2,18 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import './PageLayout.scss'
 import classNames from 'classnames'
-
-import { withRouter } from 'react-router-dom'
+import { Link, withRouter } from 'react-router-dom'
 
 export const PageLayout = ({children, location, history}) => {
   const getListItem = (url, text) => {
     return (
       <li>
-        <a
+        <Link
           className={classNames({active: location.pathname === url})}
           onClick={() => history.push(url)}
         >
           {text}
-        </a>
+        </Link>
       </li>
     )
   }
