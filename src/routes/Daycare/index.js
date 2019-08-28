@@ -11,12 +11,13 @@ export default () => {
   return (
     <div className='daycare-page'>
       <img
+        alt='bear-and-blocks'
         src='/images/bear_and_blocks_transp.png'
         style={{marginTop: 10, marginRight: 20, marginLeft: 20, marginBottom: 10, float: 'right'}}
         width='200' height='200'
       />
 
-      <p>My First Steps daycare is located at <a target='_blank' href={googleMapsUrl}>1586 41st Ave., San Francisco, CA
+      <p>My First Steps daycare is located at <a target='_blank' rel='noopener noreferrer' href={googleMapsUrl}>1586 41st Ave., San Francisco, CA
       </a>.&nbsp;&nbsp;It is licensed to serve up to eight children, of whom no more than
         three can be infants.&nbsp;&nbsp;Zoila runs My First Steps daycare in her home.&nbsp;&nbsp;The entire lower
         level is devoted to My First Steps Daycare, and houses a large play area, a small kitchen, a spacious backyard,

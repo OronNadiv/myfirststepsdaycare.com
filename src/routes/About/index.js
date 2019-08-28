@@ -5,6 +5,7 @@ export default () => {
   return (
     <div>
       <img
+        alt='abc'
         src='/images/abc_transp.gif' style={{marginTop: 10, marginLeft: 20, marginBottom: 10, float: 'right'}}
         width='200' height='145'
       />

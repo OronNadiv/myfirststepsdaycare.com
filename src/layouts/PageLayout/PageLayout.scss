@@ -1,6 +1,6 @@
 #bg_top {
   /*the design for the header*/
-  background: url(../../../public/images/header_bg.jpg) center top no-repeat;
+  background: url(../../images/header_bg.jpg) center top no-repeat;
   min-height: 100%;
   /*stick footer to bottom of the page*/
   text-align: justify;
@@ -175,7 +175,7 @@
   /* negative value of footer height */
   height: 188px;
   clear: both;
-  background: url(../../../public/images/grass_tile.jpg) bottom repeat-x;
+  background: url(../../images/grass_tile.jpg) bottom repeat-x;
   /*
 width:100%;
 background:url(../images/grass_tile.jpg) bottom  repeat-x;
@@ -183,7 +183,7 @@ height:188px;*/
 }
 
 #footer_design {
-  background: url(../../../public/images/footer_design.jpg) no-repeat top left;
+  background: url(../../images/footer_design.jpg) no-repeat top left;
   height: 188px;
   width: 980px;
   margin: 0 auto;

@@ -6,7 +6,8 @@ export default () => {
     <div className='main-page'>
       <h1>Welcome to My First Steps Daycare</h1>
       <img
-        src='/images/welcome.png' alt='' width='300' height='250' style={{paddingLeft: 50, float: 'right'}}
+        alt='welcome'
+        src='/images/welcome.png' width='300' height='250' style={{paddingLeft: 50, float: 'right'}}
       />
       <p>
         My First Steps is a licensed family daycare in the Outer Sunset neighborhood of San Francisco.

@@ -6,38 +6,59 @@ import Daycare from './Daycare'
 import Testimonials from './Testimonials'
 import Gallery from './Gallery'
 import Contact from './Contact'
-import { browserHistory, Router, Route, Redirect, IndexRoute } from 'react-router'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
-export default (store) => (
-  <Router history={browserHistory}>
-    <Route path='/' component={CoreLayout}>
-      <IndexRoute
-        component={Home}
-      />
+export default () => (
+  <BrowserRouter>
+    <Switch>
       <Route
         path={'/zoila'}
-        component={About}
+        render={() => (
+          <CoreLayout>
+            <About/>
+          </CoreLayout>
+        )}
       />
       <Route
         path={'/daycare'}
-        component={Daycare}
+        render={() => (
+          <CoreLayout>
+            <Daycare/>
+          </CoreLayout>
+        )}
       />
       <Route
         path={'/testimonials'}
-        component={Testimonials}
+        render={() => (
+          <CoreLayout>
+            <Testimonials/>
+          </CoreLayout>
+        )}
       />
       <Route
         path={'/gallery'}
-        component={Gallery}
+        render={() => (
+          <CoreLayout>
+            <Gallery/>
+          </CoreLayout>
+        )}
       />
       <Route
         path={'/contact'}
-        component={Contact}
+        render={() => (
+          <CoreLayout>
+            <Contact/>
+          </CoreLayout>
+        )}
       />
-    </Route>
-    <Redirect
-      from='*'
-      to={'/'}
-    />
-  </Router>
+      <Route
+        path='/'
+        render={() => (
+          <CoreLayout>
+            <Home/>
+          </CoreLayout>
+        )}
+      />
+    </Switch>
+  </BrowserRouter>
 )

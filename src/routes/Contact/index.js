@@ -25,7 +25,7 @@ export default () => {
           <p>
             <h2 className='contact_title'>Phone:</h2>
             <a
-              target='_blank'
+              target='_blank' rel='noopener noreferrer'
               href='tel:415-564-7703'>
               (415) 564-7703
             </a>
@@ -33,7 +33,7 @@ export default () => {
           <p>
             <h2>Address:</h2>
             <a
-              target='_blank'
+              target='_blank' rel='noopener noreferrer'
               href={googleMapsUrl}>
               1586 41st Ave.
               <br />
@@ -44,7 +44,7 @@ export default () => {
       </div>
       <div className='main_right'>
         <div className='googlemap'>
-          <iframe
+          <iframe title='googlemap'
             width='480' height='300'
             frameBorder='0' scrolling='no' marginHeight='0' marginWidth='0'
             src={googleMapsUrl2}
