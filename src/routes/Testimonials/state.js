@@ -16,7 +16,7 @@ export default [
         care. We could see that she had won the trust of everyone present, and we soon felt the same way.
         <span className='testimonial-more'>
           <br />
-          [<a onClick={cb}>Read Full Testimonial</a>]
+          [<Link onClick={cb}>Read Full Testimonial</Link>]
         </span>
       </p>
     ),
@@ -67,7 +67,7 @@ export default [
         am away, my child is in a loving and nurturing environment.
         <span className='testimonial-more'>
           <br />
-          [<a onClick={cb}>Read Full Testimonial</a>]
+          [<Link onClick={cb}>Read Full Testimonial</Link>]
         </span>
       </p>
     ),
@@ -121,7 +121,7 @@ export default [
         and for that reason I see my son developing a wide palette for different tastes, textures, and flavors.
         <span className='testimonial-more'>
           <br />
-          [<a onClick={cb}>Read Full Testimonial</a>]
+          [<Link onClick={cb}>Read Full Testimonial</Link>]
         </span>
       </p>      
     ),
@@ -194,7 +194,7 @@ export default [
         <br /><br />Our son has been there since...
         <span className='testimonial-more'>
           <br />
-          [<a onClick={cb}>Read Full Testimonial</a>]
+          [<Link onClick={cb}>Read Full Testimonial</Link>]
         </span>
       </p>
     ),
@@ -252,7 +252,7 @@ export default [
         immensely in...
         <span className='testimonial-more'>
           <br />
-          [<a onClick={cb}>Read Full Testimonial</a>]
+          [<Link onClick={cb}>Read Full Testimonial</Link>]
         </span>
       </p>
     ),
@@ -304,7 +304,7 @@ export default [
         first foray in trusting maternal instincts was not wrong.
         <span className='testimonial-more'>
           <br />
-          [<a onClick={cb}>Read Full Testimonial</a>]
+          [<Link onClick={cb}>Read Full Testimonial</Link>]
         </span>
       </p>
     ),
@@ -344,7 +344,7 @@ export default [
         son.&nbsp;&nbsp;And we were so happy when we found Zoila's daycare — it stood out in so many ways.
         <span className='testimonial-more'>
           <br />
-          [<a onClick={cb}>Read Full Testimonial</a>]
+          [<Link onClick={cb}>Read Full Testimonial</Link>]
         </span>
       </p>
     ),
@@ -390,7 +390,7 @@ export default [
         never ever find a daycare provider of this caliber again.
         <span className='testimonial-more'>
           <br />
-          [<a onClick={cb}>Read Full Testimonial</a>]
+          [<Link onClick={cb}>Read Full Testimonial</Link>]
         </span>
       </p>
     ),
@@ -452,7 +452,7 @@ export default [
         spoiling them.&nbsp;&nbsp;We can totally concentrate on...
         <span className='testimonial-more'>
           <br />
-          [<a onClick={cb}>Read Full Testimonial</a>]
+          [<Link onClick={cb}>Read Full Testimonial</Link>]
         </span>
       </p>
     ),
@@ -496,7 +496,7 @@ export default [
         they welcome us as if we were part of their family, and they genuinely care about the kids.
         <span className='testimonial-more'>
           <br />
-          [<a onClick={cb}>Read Full Testimonial</a>]
+          [<Link onClick={cb}>Read Full Testimonial</Link>]
         </span>
       </p>
     ),
@@ -545,7 +545,7 @@ export default [
         had found the place I dreamed of finding.
         <span className='testimonial-more'>
           <br />
-          [<a onClick={cb}>Read Full Testimonial</a>]
+          [<Link onClick={cb}>Read Full Testimonial</Link>]
         </span>
       </p>
     ),
@@ -596,7 +596,7 @@ export default [
         always changing and never involved a microwave or a juice box.&nbsp;&nbsp;I liked how...
         <span className='testimonial-more'>
           <br />
-          [<a onClick={cb}>Read Full Testimonial</a>]
+          [<Link onClick={cb}>Read Full Testimonial</Link>]
         </span>
       </p>
     ),
@@ -633,7 +633,7 @@ export default [
         singing and play). Any family would be very lucky to have her care for their child(ren).
         <span className='testimonial-more'>
           <br />
-          [<a onClick={cb}>Read Full Testimonial</a>]
+          [<Link onClick={cb}>Read Full Testimonial</Link>]
         </span>
       </p>
     ),
@@ -688,7 +688,7 @@ export default [
         with each other and with the big selection of toys and books.
         <span className='testimonial-more'>
           <br />
-          [<a onClick={cb}>Read Full Testimonial</a>]
+          [<Link onClick={cb}>Read Full Testimonial</Link>]
         </span>
       </p>
     ),
@@ -720,7 +720,7 @@ export default [
         teaching techniques. She shows consideration for all the toys she purchases. Every toy has a teaching purpose...
         <span className='testimonial-more'>
           <br />
-          [<a onClick={cb}>Read Full Testimonial</a>]
+          [<Link onClick={cb}>Read Full Testimonial</Link>]
         </span>
       </p>
 
@@ -773,7 +773,7 @@ export default [
         place...
         <span className='testimonial-more'>
           <br />
-          [<a onClick={cb}>Read Full Testimonial</a>]
+          [<Link onClick={cb}>Read Full Testimonial</Link>]
         </span>
       </p>
     ),
@@ -830,7 +830,7 @@ export default [
         after the birth of my son was far easier knowing that both children were in good hands.
         <span className='testimonial-more'>
           <br />
-          [<a onClick={cb}>Read Full Testimonial</a>]
+          [<Link onClick={cb}>Read Full Testimonial</Link>]
         </span>
     </p>
     ),
@@ -868,7 +868,7 @@ export default [
         to say about it.
         <span className='testimonial-more'>
           <br />
-          [<a onClick={cb}>Read Full Testimonial</a>]
+          [<Link onClick={cb}>Read Full Testimonial</Link>]
         </span>
       </p>
     ),
@@ -909,7 +909,7 @@ export default [
         baby and I was never able to get him interested in cow’s milk at home. Now he asks for it!
         <span className='testimonial-more'>
           <br />
-          [<a onClick={cb}>Read Full Testimonial</a>]
+          [<Link onClick={cb}>Read Full Testimonial</Link>]
         </span>
       </p>
     ),
@@ -950,7 +950,7 @@ export default [
         a home environment as well as educated in a pre-school setting.
         <span className='testimonial-more'>
           <br />
-          [<a onClick={cb}>Read Full Testimonial</a>]
+          [<Link onClick={cb}>Read Full Testimonial</Link>]
         </span>
       </p>
     ),
@@ -993,7 +993,7 @@ export default [
         prides herself on being an excellent day care provider.
         <span className='testimonial-more'>
           <br />
-          [<a onClick={cb}>Read Full Testimonial</a>]
+          [<Link onClick={cb}>Read Full Testimonial</Link>]
         </span>
       </p>
     ),
@@ -1030,7 +1030,7 @@ export default [
         Preschool, she has taught Julia self-discipline, independence and given us advice to help on her development.
         <span className='testimonial-more'>
           <br />
-          [<a onClick={cb}>Read Full Testimonial</a>]
+          [<Link onClick={cb}>Read Full Testimonial</Link>]
         </span>
       </p>
     ),
