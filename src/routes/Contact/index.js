@@ -17,7 +17,7 @@ const googleMapsUrl2 = 'https://maps.google.com/maps?' +
   '&t=m&ll=37.757212,-122.500219&spn=0.020358,0.041113&z=14' +
   '&iwloc=near&output=embed'
 
-export default () => {
+const Index = () => {
   return (
     <div className='contact-page'>
       <div id='left_column1'>
@@ -54,3 +54,5 @@ export default () => {
     </div>
   )
 }
+
+export default Index

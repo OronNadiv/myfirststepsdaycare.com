@@ -4,7 +4,7 @@ import ImageGallery from 'react-image-gallery'
 
 const images = require('./images.json')
 
-export default () => {
+const Index = () => {
   return (
     <div className='gallery-page'>
       <ImageGallery
@@ -20,3 +20,5 @@ export default () => {
     </div>
   )
 }
+
+export default Index

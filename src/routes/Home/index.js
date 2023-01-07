@@ -1,7 +1,7 @@
 import React from 'react'
 import './home.scss'
 
-export default () => {
+const Index = () => {
   return (
     <div className='main-page'>
       <h1>Welcome to My First Steps Daycare</h1>
@@ -22,3 +22,5 @@ export default () => {
     </div>
   )
 }
+
+export default Index

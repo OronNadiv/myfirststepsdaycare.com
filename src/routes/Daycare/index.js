@@ -7,7 +7,7 @@ const googleMapsUrl = 'https://maps.google.com/maps?' +
   '&hq=&hnear=1586+41st+Ave,+San+Francisco,+California+94122&t=m&ll=37.757212,-122.500219' +
   '&spn=0.020358,0.025749&z=14&iwloc=A'
 
-export default () => {
+const Index = () => {
   return (
     <div className='daycare-page'>
       <img
@@ -76,3 +76,5 @@ export default () => {
     </div>
   )
 }
+
+export default Index

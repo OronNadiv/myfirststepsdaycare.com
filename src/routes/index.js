@@ -8,7 +8,7 @@ import Gallery from './Gallery'
 import Contact from './Contact'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
-export default () => (
+const Index = () => (
   <BrowserRouter>
     <Switch>
       <Route
@@ -62,3 +62,5 @@ export default () => (
     </Switch>
   </BrowserRouter>
 )
+
+export default Index

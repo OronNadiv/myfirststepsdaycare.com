@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.scss'
 
-export default () => {
+const Index = () => {
   return (
     <div>
       <img
@@ -17,3 +17,4 @@ export default () => {
     </div>
   )
 }
+export default Index

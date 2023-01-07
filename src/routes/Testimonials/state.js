@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default [
+const State = [
   {
     short: cb => (
       <p>
@@ -103,7 +103,7 @@ export default [
         thanks to Zoila’s cooking and exposing her to all sort of foods. I am positive my daughter eats a more
         varied, healthy, and delicious diet than most adults.
         <br /><br />
-        I highly recommend Zoila and would love to discuss more over the phone or via email, please reach out to 
+        I highly recommend Zoila and would love to discuss more over the phone or via email, please reach out to
         Zoila for my contact information.
       </p>
     ),
@@ -123,7 +123,7 @@ export default [
           <br />
           [<Link onClick={cb}>Read Full Testimonial</Link>]
         </span>
-      </p>      
+      </p>
     ),
     long: () => (
       <p>
@@ -524,8 +524,8 @@ export default [
         <br />·      Healthy, organic, freshly-made meals
         <br />·      Trips to the park
         <br />·      Great communication / feedback on what happens during the day
-        <br /><br /> 
-        Please do not hesitate to contact me should you have any questions. 
+        <br /><br />
+        Please do not hesitate to contact me should you have any questions.
       </p>
     ),
     author: 'Teddy H. (July 2013)'
@@ -537,7 +537,7 @@ export default [
         daycare, is truly a gem. She has a kind-hearted, patient and nurturing personality. My first child went
         to two daycares and he is now in preschool. Through all of our experiences with different facilities,
         I am delighted to say I have never found anything as wonderful and heartwarming as Zoila’s place.
-        <br /><br />  
+        <br /><br />
         My daughter, Charlotte, was 7 [months] when she first started. I had to return to work after the end of
         my maternity leave. And as any mother to a young baby, I was very passionate about finding the perfect
         place for her where the caretaker would understand her developmental, educational, emotional and safety
@@ -555,7 +555,7 @@ export default [
         daycare, is truly a gem. She has a kind-hearted, patient and nurturing personality. My first child went
         to two daycares and he is now in preschool. Through all of our experiences with different facilities,
         I am delighted to say I have never found anything as wonderful and heartwarming as Zoila’s place.
-        <br /><br />  
+        <br /><br />
         My daughter, Charlotte, was 7 [months] when she first started. I had to return to work after the end of
         my maternity leave. And as any mother to a young baby, I was very passionate about finding the perfect
         place for her where the caretaker would understand her developmental, educational, emotional and safety
@@ -581,7 +581,7 @@ export default [
         <br /><br />
         My daughter loved Zoila dearly, and my husband and I both hold her in the highest regard. Choosing
         someone to care for your children is a very important decision and not one to be made lightly. Zoila
-        is a wonderful choice. She is very responsible, kind, warm and caring. 
+        is a wonderful choice. She is very responsible, kind, warm and caring.
       </p>
     ),
     author: 'Jenny W. (July 2013)'
@@ -1060,3 +1060,5 @@ export default [
     author: 'Eva E. (Sep 2004)'
   }
 ]
+
+export default State
