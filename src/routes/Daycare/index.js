@@ -56,9 +56,7 @@ const Index = () => {
         <li>8:00 AM: Breakfast</li>
         <li>8:45 AM: Hygiene</li>
         <li>9:00 AM: Reading, puzzles/Nap time</li>
-        <li>10:00 AM Play time outside or the occasional outing (Outings include Golden Gate Park, San Francisco Zoo,
-          and Ocean Beach)
-        </li>
+        <li>10:00 AM: Play time indoors or in backyard (depending on weather)</li>
         <li>12:00 PM: Lunch</li>
         <li>12:45 PM: Hygiene</li>
         <li>1:00 PM: Relax/Music time</li>
